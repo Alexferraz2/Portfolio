@@ -1,0 +1,29 @@
+.aboutMe {
+    height: 350px;
+    display: flex;
+}
+
+.subTitle{
+    margin: 50px 0;
+}
+
+.textAboutMe {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.textAbout{
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img{
+    
+    display: flex;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}

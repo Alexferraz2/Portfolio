@@ -1,0 +1,28 @@
+.myProjectContainer{
+    margin-top: 100px;
+}
+
+.myProject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.card{
+    width: 356px;
+    height: 380px;   
+    border-radius: 5px;
+    background: #292929;
+    margin-top: 70px;
+    padding: 25px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
