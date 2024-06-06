@@ -5,7 +5,7 @@ import SubTitle from "../SubTitle/SubTitle";
 
 function Footer() {
     return(
-        <div className={Styles.footer}>
+        <div className={Styles.footer} id="contact">
             <div className={Styles.contact}>
                 <SubTitle>Gostou? Entre em contato</SubTitle>
                 <p className={styles.textAbout}>Atualmente, estou procurando por novas oportunidades no mercado da programação, vamos conversar?</p>

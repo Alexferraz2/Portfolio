@@ -5,7 +5,7 @@ import SubTitle from "../SubTitle/SubTitle";
 
 function AboutMe() {
     return(
-        <div className={styles.aboutMe}>
+        <div className={styles.aboutMe} id="aboutme">
                         
             <div className={styles.textAboutMe}>
                 <div className={styles.subTitle}>

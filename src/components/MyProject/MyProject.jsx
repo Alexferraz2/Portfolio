@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 
 function MyProject() {
     return(
-        <div className={Styles.myProjectContainer}>
+        <div className={Styles.myProjectContainer} id="project">
             <div>
                 <SubTitle>Meus projetos</SubTitle>
             </div>
