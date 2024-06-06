@@ -1,9 +1,9 @@
 
 import styles from "./Button.module.css"
 
-function Button({children}) {
+function Button({url, children}) {
     return (
-        <button className={styles.btn}>{children}</button>
+        <a href={url} download="Curriculum" className={styles.btnlink} target="_blank">{children}</a>
     )
 }
 

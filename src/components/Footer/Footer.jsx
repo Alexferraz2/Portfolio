@@ -11,7 +11,7 @@ function Footer() {
                 <p className={styles.textAbout}>Atualmente, estou procurando por novas oportunidades no mercado da programação, vamos conversar?</p>
                 <div>
                     <p><strong>E-mail:</strong> alex_ferraz2@hotmail.com</p>
-                    <p><strong>Whatsapp:</strong> (84) 98844-74988</p>
+                    <p><strong>Whatsapp:</strong> (84) 98844-7498</p>
                 </div>
                 
             </div>

@@ -1,13 +1,12 @@
 import React from "react";
 
-
-
 import styles from "./AboutMe.module.css"
 import SubTitle from "../SubTitle/SubTitle";
 
 function AboutMe() {
     return(
         <div className={styles.aboutMe}>
+                        
             <div className={styles.textAboutMe}>
                 <div className={styles.subTitle}>
                     <SubTitle>Sobre mim</SubTitle>
@@ -19,9 +18,9 @@ function AboutMe() {
                     
                 </div>
             </div>
-                ...
-            <div className={styles.img}>
-                <img src="" alt="Alex" />
+            
+            <div className={styles.imgcontainer}>
+                <img src="/Alex.jpg" alt="Alex" className={styles.avatar}/>
             </div>
         </div>
     )

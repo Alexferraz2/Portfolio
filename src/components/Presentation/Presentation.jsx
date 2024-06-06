@@ -12,7 +12,7 @@ function Presentation() {
                 <p className={styles.paragraph}>E eu sou Desenvolver Web FullStack, e este <span className={styles.span}>é o meu portfólio</span></p>
             </div>
             <div className={styles.btn}>
-                <Button>Baixar Curriculum</Button>
+                <Button url="/curriculo.pdf">Baixar Curriculum</Button>
             </div>
             
         </div>

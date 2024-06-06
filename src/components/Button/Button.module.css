@@ -7,3 +7,16 @@
     background-color: transparent;
 
 }
+
+.btnlink{
+    width: 288px;
+    height: 66px;
+    border-radius: 5px;
+    color: #00F0FF;
+    border: 2px solid #00F0FF;
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

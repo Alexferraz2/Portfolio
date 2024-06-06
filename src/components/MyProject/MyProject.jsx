@@ -16,12 +16,12 @@ function MyProject() {
                 <div className={Styles.card}>
                     <Text >Jogo da Velha</Text>
                     <p>Foi construído um jogo da velha com placar para treinar ReactJs e a fazer manipulação de estados dentro do ReactJs</p>
-                    <Button>Visitar Projeto</Button>
+                    <Button url="https://react-jogo-da-velha-7od4.vercel.app/">Visitar Projeto</Button>
                 </div>
                 <div className={Styles.card}>
                     <Text className={Styles.contentCard}>Social Dev</Text>
                     <p>Foi construída uma rede social usando ReactJs, NextJs, NodeJs, mongoDb, mongoose e styled components.</p>
-                    <Button>Visitar Projeto</Button>
+                    <Button url="https://react-jogo-da-velha-7od4.vercel.app/">Visitar Projeto</Button>
                 </div>
                 
             </div>
