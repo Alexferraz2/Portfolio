@@ -11,9 +11,18 @@ function Presentation() {
                 <Title>Alexsandro</Title>
                 <p className={styles.paragraph}>E eu sou Desenvolver Web FullStack, e este <span className={styles.span}>é o meu portfólio</span></p>
             </div>
-            <div className={styles.btn}>
-                <Button url="/curriculo.pdf">Baixar Curriculum</Button>
+            <div className={styles.avatarcontainer}>
+
+                <div className={styles.imgcontainer}>
+                    <img src="/Alex.jpg" alt="Alex" className={styles.avatar}/>
+                </div>
+                
+                <div className={styles.btn}>
+                    <Button url="/curriculo.pdf">Baixar Curriculum</Button>
+                </div>
+
             </div>
+            
             
         </div>
     )

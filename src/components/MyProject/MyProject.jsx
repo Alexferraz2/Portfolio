@@ -20,8 +20,14 @@ function MyProject() {
                 </div>
                 <div className={Styles.card}>
                     <Text className={Styles.contentCard}>Social Dev</Text>
-                    <p>Foi construída uma rede social usando ReactJs, NextJs, NodeJs, mongoDb, mongoose e styled components.</p>
-                    <Button url="https://react-jogo-da-velha-7od4.vercel.app/">Visitar Projeto</Button>
+                    <p>Foi construido uma página para uma pizzaria, onde podemos escolher sabores e adcionar em um carrinho de compras.</p>
+                    <Button url="https://alexferraz2.github.io/Projeto-Pizzaria-Delivery/">Visitar Projeto</Button>
+                </div>
+
+                <div className={Styles.card}>
+                    <Text className={Styles.contentCard}>Social Dev</Text>
+                    <p>Foi construido uma página de uma empresa para poder mostrar seus serviços, projetos, depoimento de clientes e outras informações necessárias.</p>
+                    <Button url="https://alexferraz2.github.io/Projeto_Awax/">Visitar Projeto</Button>
                 </div>
                 
             </div>

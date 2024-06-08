@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
+    height: 300px;
 }
 .presentation{  
     
@@ -13,12 +14,23 @@
     
 }
 
+.avatarcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn{
     
     display: flex;
     flex: 1;
-    justify-content: end;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     
     
 }
@@ -37,4 +49,11 @@
     font-size: 30px;
     font-weight: 700;
     color: #00F0FF
+}
+
+
+
+.avatar{
+    height: 180px;
+    border-radius: 50%;
 }

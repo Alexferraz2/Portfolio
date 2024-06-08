@@ -13,15 +13,14 @@ function AboutMe() {
                 </div>
                 <div className={styles.textAbout}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quidem saepe eum dolor delectus quam doloribus, itaque voluptatem magni iste, ullam fugiat illo, dolorum quos deserunt officia ex? Natus, ea?
+                        Sou apaixonado por tecnologia com foco no front-end, onde dedico grande parte do meu tempo ao desenvolvimento de interfaces de usuário intuitivas e responsivas. Paralelamente, estou me aprimorando no back-end, expandindo minhas habilidades em Node.js e Next.js.
+                        
                     </p>
                     
                 </div>
             </div>
             
-            <div className={styles.imgcontainer}>
-                <img src="/Alex.jpg" alt="Alex" className={styles.avatar}/>
-            </div>
+            
         </div>
     )
 }
