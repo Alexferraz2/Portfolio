@@ -1,0 +1,33 @@
+.aboutMe {
+    height: 350px;
+    display: flex;
+}
+
+
+.textAboutMe {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.textAbout{
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imgcontainer{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+}
+
+.avatar{
+    height: 200px;
+    border-radius: 50%;
+}

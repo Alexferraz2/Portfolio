@@ -1,5 +1,5 @@
 import Styles from "./Footer.module.css"
-import styles from "../AboutMe/AboutMe.module.css"
+import styles from "../Aboutme/AboutMe.module.css"
 
 import SubTitle from "../SubTitle/SubTitle";
 

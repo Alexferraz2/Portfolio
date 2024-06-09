@@ -1,4 +1,4 @@
-import SubTitle from "../SubTitle/SubTitle";
+
 import styles from "./Header.module.css"
 
 function Header(){
