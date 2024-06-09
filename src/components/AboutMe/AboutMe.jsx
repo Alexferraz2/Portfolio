@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./AboutMe.module.css"
 import SubTitle from "../SubTitle/SubTitle";
 
-function AboutMe() {
+function Aboutme() {
     return(
         <div className={styles.aboutMe} id="aboutme">
                         
@@ -25,4 +25,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe;
+export default Aboutme;

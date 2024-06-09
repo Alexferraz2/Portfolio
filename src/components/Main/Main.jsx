@@ -1,5 +1,5 @@
+import Aboutme from "../Aboutme/Aboutme"
 
-import AboutMe from "../Aboutme/Aboutme";
 import TopButton from "../Button/TopButton";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
@@ -13,7 +13,7 @@ function Main() {
         <div className={styles.main}>
             <Header/>
             <Presentation/>
-            <AboutMe/>
+            <Aboutme/>
             <MyStack/>
             <MyProject/>
             <Footer/>
