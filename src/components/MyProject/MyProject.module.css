@@ -30,3 +30,30 @@
     border: 1px solid #40b0b8;
 }
 
+@media(max-width: 480px) {
+    .myProjectContainer{
+        width: 100%;
+        justify-content: center;
+        
+        
+    }
+    .card{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .myProject{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1024px) {
+    .myProject{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

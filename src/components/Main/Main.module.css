@@ -1,8 +1,17 @@
 .main{
     color: #fff;
-    width: 70%;
-    background-color: #151515;    
+    display: flex;
+    flex-direction: column;
+    width: 95%;
     margin: auto;
     
     
 }
+
+@media(max-width: 480px) {
+    .main{
+        width: 95%;
+        
+    }
+}
+

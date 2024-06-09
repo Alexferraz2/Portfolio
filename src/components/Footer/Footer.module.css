@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    width: 60%;
+    width: 100%;
     margin-top: 200px;
     
 
@@ -23,7 +23,38 @@
 .assign{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     padding-top: 50px;
+    width: 100%;
     
 }
+
+@media(max-width: 480px) {
+    .contact{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .footer{
+        height: 550px;
+        width: 100%;
+    }
+
+    .footerSubtitle{
+        margin: 0;
+
+    }
+    .contact{
+        margin-top: 150px;
+        height: 250px;
+        gap: 10px;
+   } 
+
+    .assign{
+        margin-top: 10px;
+        margin-bottom: 10px;
+   }
+}
+

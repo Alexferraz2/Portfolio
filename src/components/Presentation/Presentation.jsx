@@ -5,7 +5,7 @@ import styles from "./Presentation.module.css"
 
 function Presentation() {
     return(
-        <div className={styles.presentationContaine}>
+        <div className={styles.presentationContainer}>
             <div className={styles.presentation}>
                 <Text>Olá, meu nome é</Text>
                 <Title>Alexsandro</Title>
