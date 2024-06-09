@@ -14,7 +14,7 @@ function Presentation() {
             <div className={styles.avatarcontainer}>
 
                 <div className={styles.imgcontainer}>
-                    <img src="/Alex.jpg" alt="Alex" className={styles.avatar}/>
+                    <img src="/alex.jpg" alt="Alex" className={styles.avatar}/>
                 </div>
                 
                 <div className={styles.btn}>
