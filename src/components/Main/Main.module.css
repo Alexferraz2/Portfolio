@@ -2,7 +2,9 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     margin: auto;
     
     
